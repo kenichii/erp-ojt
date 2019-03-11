@@ -1,0 +1,19 @@
+header {
+  background-color: #5573F6;
+  .navbar-brand {
+    background-color: #354FBF;
+
+    .navbar-item {
+      padding: 0px 25px;
+      img {
+        max-height: 2.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1088px){
+  .navbar-brand {
+    width: 20em;
+  }
+}

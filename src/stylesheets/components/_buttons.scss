@@ -1,0 +1,11 @@
+@import "../helpers/_index.scss";
+
+.button {
+  border-radius: $radius-rounded;
+  &.is-primary {
+    background-color: $primary;
+    &:hover {
+      background-color: darken($primary, 3%);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../stylesheets/helpers/_variables.scss';
+
+section.wrapper {
+  min-height: 100vh;
+  background-color: $default-background-color;
+
+  main.main {
+    height: calc(100vh - 3.25rem);
+    overflow: auto;
+
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  main.main {
+    margin-left: 20em;
+  }
+}

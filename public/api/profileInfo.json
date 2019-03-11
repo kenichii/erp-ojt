@@ -1,0 +1,23 @@
+{
+	"firstName": "Mark Kenneth",
+	"middleName": "Timbol",
+	"lastName": "Galura",
+	"birthDate": "1992-01-24",
+	"birthPlace": "City of Sanfernando",
+	"gender": "M",
+	"nationalityId":"00000000-0000-0000-0000-000000000000",
+	"civilStatusId":"00000000-0000-0000-0000-000000000000",
+	"pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qAbF6b0BMj3KCPJS6RSo90zooBzVm_2azzBT79VWMwPX66Tl",
+	"salutationId":"00000000-0000-0000-0000-000000000000",
+	"suffixId":"00000000-0000-0000-0000-000000000000",
+	"contactDetails": [
+		{
+			"contactNumber": "09268610847",
+			"contactType": "00000000-0000-0000-0000-000000000000",
+			"emailAddress": "mark.kenneth.galura@gmail.com",
+			"emailType": "00000000-0000-0000-0000-000000000000",
+			"address": "#21 Aquino Street Davsan Subdivision Sindalan City Of Sanfernando Pampanga",
+			"addressType": "00000000-0000-0000-0000-000000000000"
+		}
+	]
+}

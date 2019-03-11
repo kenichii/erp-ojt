@@ -1,0 +1,32 @@
+
+.fa {
+  color: gray;
+}
+.input.search {
+  background-color: #edf1f4;
+}
+.tag {
+  width: 100px;
+  background-color: #3f4871;
+  color: white;
+}
+
+.tag {
+  &.Approved {
+    background-color: #00A557;
+  }
+
+  &.Pending {
+    background-color: #41496F;
+  }
+  &.Rejected {
+    background-color: #FF4A4D;
+  }
+}
+
+.fileLeaveButton {
+  padding-left: 15px;
+  .button{
+    width: 200px;
+  }
+}

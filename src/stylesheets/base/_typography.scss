@@ -1,0 +1,9 @@
+@import "../helpers/_variables.scss";
+
+h1.title {
+  color: $header-title-color;
+}
+
+.has-text-primary {
+  color: $primary !important;
+}

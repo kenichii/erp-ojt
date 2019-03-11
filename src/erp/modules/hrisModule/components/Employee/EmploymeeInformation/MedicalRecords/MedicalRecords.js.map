@@ -1,0 +1,1 @@
+{"version":3,"file":"MedicalRecords.js","sourceRoot":"","sources":["MedicalRecords.ts"],"names":[],"mappings":";AAAA,OAAO,EAAC,SAAS,EAAE,GAAG,EAAC,MAAM,wBAAwB,CAAC;AAItD,MAAM,KAAK,GAAG,EAAE,CAAC;AAOjB,IAAqB,cAAc,GAAnC,MAAqB,cAAe,SAAQ,GAAG;CAE9C,CAAA;AAFoB,cAAc;IALlC,SAAS,CAAC;QACP,IAAI,EAAE,gBAAgB;KAEzB,CAAC;GAEmB,cAAc,CAElC;eAFoB,cAAc"}

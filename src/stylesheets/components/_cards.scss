@@ -1,0 +1,15 @@
+@import "../helpers/_index.scss";
+
+.card {
+  box-shadow: none;
+  border-radius: $radius-rounded;
+  margin: 0.75em;
+  .card-header {
+    .card-header-title {
+      color: $header-title-color;
+      margin: 1rem 0;
+      padding: 0 0.75rem;
+      border-left: 10px solid $primary;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@import "../helpers/_variables";
+
+.pagination-link.is-current {
+  background-color: $primary !important;
+  border-color: $primary;
+}
+

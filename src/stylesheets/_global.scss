@@ -1,0 +1,53 @@
+@import './helpers/_index.scss';
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  color: $default-font-color;
+}
+
+main.main {
+  padding: 2em 1em 0;
+}
+
+a.link {
+  color: #67CCF6;
+}
+
+@media screen and (max-width: 1394px) {
+  .card-content {
+    dt {
+      font-size: 0.6rem !important;
+      /*font-weight: 700;*/
+    }
+    dd {
+      font-size: 0.5rem !important;
+    }
+    .columns {
+      .column {
+        .table {
+          .media-content {
+            font-size: 0.7rem !important;
+          }
+        }
+      }
+    }
+  }
+  .fullheight {
+    height: 100%;
+  }
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.navbar-burger {
+  color: $primary !important;
+}
+
+.pointer{
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "profileInformation": {
+            "firstName": "Petmalodi",
+            "middleName": "Gulamanatics",
+            "lastName": "GULAPAS",
+            "birthDate" : "1992-01-24",
+            "birthPlace" : "Lalam Saging",
+            "gender" : "M",
+            "nationalityId" : "00000000-0000-0000-0000-000000000000",
+            "civilStatusId" : "00000000-0000-0000-0000-000000000000",
+            "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qAbF6b0BMj3KCPJS6RSo90zooBzVm_2azzBT79VWMwPX66Tl",
+            "salutationId" : "00000000-0000-0000-0000-000000000000",
+            "suffixId" : "00000000-0000-0000-0000-000000000000",
+            "contactInformation":[
+                {
+                    "contactNo": "+639271234568",
+                    "contactType": "********",
+                    "emailAddress": "Gulapanatics@sailalaim.ng.putingilaw",
+                    "emailType": "gmail",
+                    "address": "Sampernandu",
+                    "addressType": "City"
+                }
+            ]
+        },
+        "emergencyContact": {
+            "startDate": "***",
+            "endDate": "***",
+            "academicDegree": "***",
+            "academicField" : "*-*-*",
+            "schoolName" : "***",
+            "achievements": "***"
+        },
+        "employmentHistory": {
+            "startDate": "***",
+            "endDate": "***",
+            "employeeId": "***",
+            "position" : "*-*-*",
+            "department" : "***",
+            "employmentType": "***",
+            "supervisor": ""
+        },
+        "governmentIds": {
+            "country": "***",
+            "governmentIdType": "***",
+            "idNumber": "***",
+            "issueDate" : "*-*-*",
+            "expiryDate" : "***"
+        },
+        "skills": {
+            "skillName": "***",
+            "skillType": "***"
+        }
+    }
+
+]

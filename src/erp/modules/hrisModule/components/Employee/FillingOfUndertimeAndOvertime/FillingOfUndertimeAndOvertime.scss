@@ -1,0 +1,12 @@
+.card-content{
+  .level-left{
+    display: flex;
+  }
+  .content{
+    .level{
+      .level-left {
+        justify-content: space-around;
+      }
+    }
+  }
+}

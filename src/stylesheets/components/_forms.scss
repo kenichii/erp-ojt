@@ -1,0 +1,35 @@
+@import "../helpers/_index.scss";
+
+.field {
+  .label {
+    color: $default-font-color;
+    font-weight: 500;
+  }
+  .input,
+  .textarea,
+  .select select {
+    border-radius: $radius-rounded;
+    box-shadow: none;
+    border: 1px solid $input-border-color;
+    &:hover {
+      border: 1px solid $input-border-color;
+    }
+  }
+  textarea {
+    resize: none;
+  }
+  .select:not(.is-multiple):not(.is-loading)::after {
+    border-color: $input-border-color;
+  }
+  .b-radio.radio input[type=radio] {
+    &:checked + .check {
+      border-color: $primary;
+    }
+    & + .check:before {
+      background: $primary;
+    }
+  }
+  .b-radio.radio:hover input[type=radio] + .check {
+    border-color: $primary;
+  }
+}

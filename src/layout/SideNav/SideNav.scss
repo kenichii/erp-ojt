@@ -1,0 +1,42 @@
+aside.aside {
+  z-index: 1;
+  background: #435CC8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 5em 35px 0;
+  overflow-y: auto;
+  width: 20em;
+  .user-profile {
+    .title, .subtitle {
+      color: #90A1EE;
+    }
+  }
+
+  ul.menu-list {
+    margin: 0 -35px;
+    li a {
+      padding: 20px 25px;
+      color: #90A1EE;
+      &.router-link-active {
+        background-color: #5573F6;
+        color: #ffffff;
+        span {
+          border-left: 3px solid #48DCBE;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  aside {
+    margin-left: -20em;
+    transition: all 0.3s ease-in-out;
+    &.is-active {
+      margin-left: 0;
+    }
+  }
+}
